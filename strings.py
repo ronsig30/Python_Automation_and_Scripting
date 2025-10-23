@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 a = input("What is your name? ")
-print(a)
 
 if a[2] == "n":
     print("You got right")
@@ -9,4 +8,5 @@ if a[2] == "n":
 else:
     print("Wrong")
 
+print(a)
 print("Come back again")
